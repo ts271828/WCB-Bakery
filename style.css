@@ -84,3 +84,30 @@ section{
 i{
     margin: 0 16px;
 }
+
+
+
+/*------------レスポンシブ------------*/
+/*width : 0~700px*/
+@media (max-width: 700px) {
+    .title{
+        font-size: 4.5rem;
+    }
+
+    .introduction{
+        font-size: 1rem;
+    }
+    .menu{
+        background-image: url(images/bread2.jpg);
+        padding-left: 200px;
+    }
+
+    table{
+        font-size: 1rem;
+    }
+
+    .menu-title{
+        font-size: 4rem;
+    }
+
+}
